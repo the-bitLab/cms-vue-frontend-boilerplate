@@ -1,0 +1,71 @@
+.display-xl {
+    font-weight: $display-font-weight;
+    @include font-size(64px);
+    line-height: 112%;
+}
+
+.display-l {
+    font-weight: $display-font-weight;
+    @include font-size(42px);
+    line-height: 124%;
+}
+
+.display-m {
+    font-weight: $display-font-weight;
+    @include font-size(32px);
+    line-height: 124%;
+}
+
+.heading-l {
+    font-weight: $headings-font-weight;
+    @include font-size(24px);
+    line-height: 132%;
+}
+
+.heading-m {
+    font-weight: $headings-font-weight;
+    @include font-size(20px);
+    line-height: 138%;
+}
+
+.heading-s {
+    font-weight: $headings-font-weight;
+    @include font-size(18px);
+    line-height: 138%;
+}
+
+.body-l {
+    @include font-size(18px);
+    line-height: 138%;
+    font-weight: $font-weight-base;
+}
+
+.body-s {
+    @include font-size(16px);
+    line-height: 140%;
+    font-weight: $font-weight-base;
+}
+
+.subheading {
+    @include font-size(14px);
+    line-height: 140%;
+    font-weight: $font-weight-base;
+}
+
+.subheading-upper {
+    @include font-size(12px);
+    line-height: 137%;
+    letter-spacing: 1.25%;
+    text-transform: uppercase;
+    font-weight: $font-weight-base;
+}
+
+.caption {
+    @include font-size(12px);
+    line-height: 137%;
+    font-weight: $font-weight-base;
+}
+
+sup {
+    top: -1em !important;
+}

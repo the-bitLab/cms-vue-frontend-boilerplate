@@ -1,0 +1,14 @@
+.text-justify {
+	text-align: justify;
+}
+
+.sub-title {
+	@include media-breakpoint-up(lg) {
+		width: 83%;
+	}
+}
+
+.text-justify {
+	text-align: justify;
+	text-justify: inter-word;
+}

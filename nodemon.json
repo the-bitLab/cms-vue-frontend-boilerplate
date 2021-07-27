@@ -1,0 +1,4 @@
+{
+    "watch": ["webpack.common.js", "webpack.dev.js", "src/data.js"],
+    "exec": "webpack-cli serve --config webpack.dev.js --progress"
+}
